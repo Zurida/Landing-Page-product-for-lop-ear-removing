@@ -1,0 +1,1165 @@
+.order-form .price,
+.order-form .timer {
+    background-color: #333360
+}
+
+.order-form .price .special_price,
+.order-form .timer__head,
+.order-form form .btn {
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    max-width: 100%
+}
+
+.green {
+    color: #79d477
+}
+
+.no-padding {
+    padding-right: 0!important;
+    padding-left: 0!important
+}
+
+.darkgreen {
+    color: #74ad14;
+    font-weight: 700
+}
+
+.order-form {
+    width: 310px;
+    margin-top: 30px;
+    font-family: Montserrat, sans-serif
+}
+
+.order-form .timer__head {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px 15px
+}
+
+.order-form .timer .countdown {
+    padding-bottom: 20px
+}
+
+.order-form .timer .countdown__item {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-left: 15px;
+    position: relative;
+    font-size: 36px;
+    padding-top: 8px;
+    text-align: center
+}
+
+.order-form .timer .countdown .hour:after,
+.order-form .timer .countdown .second:before {
+    content: ":";
+    font-size: 36px;
+    position: absolute;
+    display: inline-block
+}
+
+.order-form .timer .countdown .hour {
+    margin-left: 25px
+}
+
+.order-form .timer .countdown .hour:after {
+    left: 75px
+}
+
+.order-form .timer .countdown .second:before {
+    left: -14px
+}
+
+.order-form .price {
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 25px
+}
+
+.order-form .price .special_price {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 15px
+}
+
+.order-form .price .new_price {
+    font-size: 37px;
+    line-height: 24px;
+    font-weight: 700;
+    display: inline-block
+}
+
+.order-form .price .old_price {
+    text-decoration: line-through;
+    display: inline-block;
+    font-size: 24px;
+    padding-left: 20px
+}
+
+.order-form form {
+    background-color: #26264a;
+    text-align: center;
+    padding-top: 20px
+}
+
+option{
+    background-color: #26264a;
+}
+
+.order-form form .form_wrapper {
+    position: relative
+}
+
+.order-form form .form_wrapper .form_input {
+    width: 242px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    color: #fff!important
+}
+
+.header div,
+.header h1,
+.header li,
+.header p {
+    color: #fff
+}
+
+.order-form form .form_wrapper .inp1,
+.order-form form .form_wrapper .inp2 {
+    padding-left: 40px
+}
+
+.order-form form .form_wrapper .fa-user {
+    position: absolute;
+    left: 50px;
+    top: 72px
+}
+
+.order-form form .form_wrapper .fa-mobile-alt {
+    position: absolute;
+    left: 50px;
+    top: 132px
+}
+
+.order-form form .btn {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding: 15px 70px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#da1600), to(#a30303));
+    background: linear-gradient(180deg, #da1600, #a30303);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    outline: 0
+}
+
+.header,
+.s2 {
+    background-position: top left 50%;
+    font-family: Montserrat, sans-serif
+}
+
+.header {
+    padding-top: 15px;
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat
+}
+
+.header h1 {
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 700
+}
+
+.header h1 .green {
+    font-size: 48px
+}
+
+.header .awards {
+    position: relative;
+    top: -20px
+}
+
+.header .logo {
+    width: 230px
+}
+
+.header .about {
+    float: left;
+    width: 293px;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 50px;
+    font-weight: 500
+}
+
+.header .before_after {
+    width: 430px;
+    margin-top: 30px
+}
+
+.header .pack_row {
+    position: relative;
+    top: -140px;
+    left: -20px
+}
+
+.header .properties {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500
+}
+
+.s1 h1,
+.s2 h1 {
+    font-weight: 700;
+    color: #333360;
+    line-height: 22px;
+    text-align: center
+}
+
+.header .properties li {
+    list-style: none;
+    padding-left: 75px;
+    margin-bottom: 30px;
+    position: relative
+}
+
+.header .properties li:nth-child(1):before,
+.header .properties li:nth-child(2):before,
+.header .properties li:nth-child(3):before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat
+}
+
+.header .properties li:nth-child(1):before {
+    background-image: url(../img/prop1.png);
+    width: 58px;
+    height: 65px;
+    left: 10px
+}
+
+.header .properties li:nth-child(2):before {
+    background-image: url(../img/prop2.png);
+    width: 64px;
+    height: 68px;
+    left: 5px;
+    top: -10px
+}
+
+.header .properties li:nth-child(3):before {
+    background-image: url(../img/prop3.png);
+    width: 60px;
+    height: 72px;
+    left: 10px;
+    top: -5px
+}
+
+.s2,
+.s2 figure,
+.s5 .card li {
+    position: relative
+}
+
+.s1 {
+    font-family: Montserrat, sans-serif;
+    margin-top: -100px
+}
+
+.s1 h1 {
+    font-size: 36px
+}
+
+.s1 .green,
+.s2 .green {
+    font-size: 48px;
+    text-transform: uppercase
+}
+
+.s1 .video {
+    width: 660px;
+    margin: 45px auto
+}
+
+.s2 {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat
+}
+
+.s2 .why_problems p,
+.s2 figure figcaption {
+    font-family: Roboto, sans-serif
+}
+
+.s2 h1 {
+    margin-bottom: 70px
+}
+
+.s2 figure figcaption,
+.s3 .btn {
+    line-height: 24px;
+    font-weight: 700
+}
+
+.s2 figure figcaption {
+    font-size: 19px;
+    background-color: #fff;
+    padding: 40px 10px;
+    color: #454553
+}
+
+.s2 .why_problems,
+.s3,
+.s3 .btn,
+.s3 .btn:hover,
+.s3 h1 {
+    color: #fff
+}
+
+.s2 .problem4 figcaption {
+    padding-bottom: 16px
+}
+
+.s2 .problem3 {
+    left: 8px
+}
+
+.s2 .problem3 figcaption {
+    -webkit-box-shadow: inset -20px 0 47px 1px #ebebeb;
+    box-shadow: inset -20px 0 47px 1px #ebebeb
+}
+
+.s2 .problem2 {
+    left: 16px
+}
+
+.s2 .problem1 {
+    left: 24px
+}
+
+.s2 .problem1 figcaption {
+    -webkit-box-shadow: inset -20px 0 47px 1px #ebebeb;
+    box-shadow: inset -20px 0 47px 1px #ebebeb
+}
+
+.s2 .why_problems .green {
+    display: inline-block;
+    margin-bottom: 30px
+}
+
+.s2 .why_problems h1 {
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    color: #fff;
+    line-height: 20px
+}
+
+.s2 .why_problems p {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 20px
+}
+
+.s3,
+.s4 {
+    font-family: Montserrat, sans-serif
+}
+
+.s3 {
+    background-color: #333360
+}
+
+.s3 h1 {
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 70px
+}
+
+.s3 .green {
+    display: inline-block;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 25px
+}
+
+.s3 p {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 25px
+}
+
+.s3 .problem_solve {
+    display: block;
+    margin: auto
+}
+
+.s3 .certificate {
+    margin-top: 28px
+}
+
+.s3 .certificate p {
+    width: 545px
+}
+
+.s3 .certificate .cert_img {
+    position: relative;
+    top: -90px
+}
+
+.s3 .button_row {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.s3 .btn {
+    font-size: 18px;
+    padding: 15px 65px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#da1600), to(#a30303));
+    background: linear-gradient(180deg, #da1600, #a30303);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-transform: uppercase
+}
+
+.s5 .card1,
+.s5 .card2 {
+    border: 2px solid #fee0e8
+}
+
+.s4 {
+    background-image: url(../img/bg4_sig.jpg);
+    background-repeat: no-repeat;
+    background-position: top left 70%;
+    background-size: cover;
+    color: #26262c
+}
+
+.s5 .card1 li:before,
+.s5 .card2 li:before {
+    background-image: url(../img/no.png)
+}
+
+.s4 h2 {
+    font-size: 36px;
+    line-height: 20px;
+    margin-bottom: 35px;
+    font-weight: 700
+}
+
+.s4 p {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px
+}
+
+.s5,
+.s6 {
+    font-family: Montserrat, sans-serif
+}
+
+.s4 .doctor {
+    display: block;
+    width: 375px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px
+}
+
+.s5 .card .card_title,
+.s5 h1 {
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center
+}
+
+.s5 h1 {
+    margin-top: 35px;
+    margin-bottom: 55px;
+    color: #333360
+}
+
+.s5 .green {
+    display: inline-block;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 25px
+}
+
+.s5 .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.s5 .card {
+    width: 355px;
+    margin-left: 10px;
+    padding: 0 20px
+}
+
+.s5 .card img {
+    display: block;
+    margin: 35px auto auto
+}
+
+.s5 .card .card_title {
+    color: #000;
+    text-transform: uppercase;
+    margin: 25px auto;
+    font-size: 24px
+}
+
+.s5 .card li {
+    list-style: none;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #454553;
+    padding-bottom: 25px;
+    font-weight: 700
+}
+
+.s5 .card1 li:before,
+.s5 .card2 li:before,
+.s5 .card3 li:before {
+    width: 58px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    content: "";
+    background-repeat: no-repeat;
+    height: 65px
+}
+
+.s5 .card2 li:first-child:before,
+.s5 .card3 li:before {
+    background-image: url(../img/yes.png)
+}
+
+.s5 .card3 {
+    border: 2px solid #d8f2d7;
+    -webkit-box-shadow: 0 0 67px 0 #ebebeb;
+    box-shadow: 0 0 67px 0 #ebebeb
+}
+
+.s6 {
+    background-image: url(../img/bg6.png);
+    background-repeat: no-repeat;
+    background-position: bottom center
+}
+
+.requisits,
+.s6 .slider p,
+.s6 figure p {
+    font-family: Roboto, sans-serif
+}
+
+.s6 h1 {
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    color: #333360
+}
+
+.s6 .green {
+    display: inline-block;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 25px
+}
+
+.s6 figure {
+    text-align: center;
+    font-weight: 700
+}
+
+.s6 figure .step_title {
+    color: #9528b5;
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    margin-top: 15px
+}
+
+.requisits,
+.s6 .slider {
+    color: #333360
+}
+
+.s6 figure p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 19px;
+    line-height: 26px
+}
+
+.s6 .step1,
+.s6 .step2 {
+    position: relative
+}
+
+.s6 .step1:after,
+.s6 .step2:after {
+    content: "";
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 350px;
+    top: 120px
+}
+
+.requisits,
+footer {
+    position: relative
+}
+
+.s6 .feedback_head {
+    font-size: 36px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #333360
+}
+
+.s6 .slider .feedback_title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700
+}
+
+.s6 .slider p {
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 30px
+}
+
+.s6 .slider .owl-dots {
+    text-align: center;
+    margin-top: 47px;
+    margin-bottom: 30px
+}
+
+.s6 .slider .owl-dot {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #333360;
+    border-radius: 50%;
+    margin-left: 5px;
+    outline: 0
+}
+
+.s6 .slider .owl-dot.active {
+    width: 25px;
+    height: 25px;
+    background-color: #333360;
+    position: relative;
+    top: 5px
+}
+
+.requisits {
+    margin-top: -100px;
+    text-align: center
+}
+
+.requisits span {
+    font-size: 14px;
+    line-height: 24px
+}
+
+.requisits .company {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px
+}
+
+@media screen and (max-width:1200px) {
+    .header h1 {
+        font-size: 34px;
+        line-height: 36px
+    }
+    .header h1 .green {
+        font-size: 44px
+    }
+    .header .about {
+        margin-top: 23px;
+        font-size: 22px
+    }
+    .header .pack_row {
+        top: -122px
+    }
+    .header .properties {
+        font-size: 17px
+    }
+    .header .properties li {
+        margin-bottom: 40px
+    }
+    .s1 {
+        margin-top: -40px
+    }
+    .s1 h1 {
+        font-size: 34px
+    }
+    .s1 .green {
+        font-size: 44px
+    }
+    .s2 h1 {
+        font-size: 34px;
+        line-height: 36px
+    }
+    .s2 .green {
+        font-size: 44px
+    }
+    .s2 .why_problems p {
+        font-size: 18px;
+        padding-bottom: 10px
+    }
+    .s3 h1 {
+        font-size: 34px
+    }
+    .s3 .green {
+        font-size: 44px
+    }
+    .s3 p {
+        font-size: 18px
+    }
+    .s4 {
+        background-position: top left 60%
+    }
+    .s5 h1 {
+        font-size: 34px
+    }
+    .s5 .green {
+        font-size: 44px
+    }
+    .s5 .card .card_title {
+        font-size: 22px
+    }
+    .s5 .card li {
+        font-size: 16px
+    }
+    .s6 .feedback_head,
+    .s6 h1 {
+        font-size: 34px
+    }
+    .s6 .green {
+        font-size: 44px
+    }
+    .s6 figure .step_title {
+        font-size: 22px
+    }
+    .s6 figure p {
+        font-size: 17px
+    }
+    .s6 .slider p {
+        font-size: 16px
+    }
+    .s6 .slider .owl-dots {
+        margin-top: 13px
+    }
+    footer .requisits {
+        text-align: center;
+        bottom: 29px
+    }
+    .requisits {
+        margin-top: -70px
+    }
+}
+
+@media screen and (max-width:991px) {
+    .header,
+    .s2 {
+        background-size: cover
+    }
+    .s2 .why_problems h1,
+    .top_tow {
+        text-align: center
+    }
+    .top_tow {
+        padding-left: 80px
+    }
+    .header {
+        padding-bottom: 130px
+    }
+    .header h1 {
+        margin-top: 13px
+    }
+    .header .before_after {
+        margin-top: -80px
+    }
+    .header .first_sm_col {
+        margin-top: 50px
+    }
+    .header .pack_row {
+        top: 0
+    }
+    .header img {
+        width: 290px
+    }
+    .header .about {
+        margin-top: -30px
+    }
+    .header .properties {
+        margin-top: 20px
+    }
+    .header .properties li {
+        margin-bottom: 50px
+    }
+    .header .properties li:nth-child(1):before {
+        top: -15px
+    }
+    .s1 h1 {
+        line-height: 36px
+    }
+    .s2 figure {
+        position: relative
+    }
+    .s2 figure figcaption {
+        width: 285px;
+        padding-left: 20px
+    }
+    .s2 .problems {
+        margin-left: 46px
+    }
+    .s2 .problem1,
+    .s2 .problem2,
+    .s2 .problem3 {
+        left: 0
+    }
+    .s2 .problem1 figcaption {
+        height: 152px
+    }
+    .s3 p {
+        padding-left: 10px
+    }
+    .s3 .certificate p {
+        width: auto
+    }
+    .s3 .certificate .cert_img {
+        top: -20px
+    }
+    .s4 {
+        background-image: url(../img/bg4_sig_991.jpg);
+        background-position: top left 44%
+    }
+    .s4 p,
+    .s6 figure p {
+        font-size: 16px
+    }
+    .s6 .slider .feedback_title {
+        display: block;
+        margin-top: 20px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .order-form form .form_wrapper .fa-user {
+        left: 40px;
+    }
+    .order-form form .form_wrapper .fa-mobile-alt {
+        left: 40px;
+    }
+    .s1 h1,
+    .s2 h1,
+    .s3 h1,
+    .s5 h1,
+    .s6 .feedback_head,
+    .s6 h1 {
+        text-align: left
+    }
+    .container {
+        width: 320px!important
+    }
+    .top_tow {
+        padding-left: 0
+    }
+    .header {
+        background-image: url(../img/bg_header_mob.png);
+        padding-bottom: 130px
+    }
+    .header h1 {
+        font-size: 32px;
+        line-height: 40px
+    }
+    .header h1 .green {
+        font-size: 36px;
+        line-height: 24px
+    }
+    .header .before_after {
+        margin-top: 15px
+    }
+    .header .pack_row {
+        top: 20px
+    }
+    .header .properties {
+        margin-top: 10px;
+        padding-left: 15px
+    }
+    .header .properties li {
+        margin-bottom: 25px;
+        padding-left: 83px
+    }
+    .header .properties li:nth-child(1):before {
+        top: 0;
+        left: 30px;
+        width: 45px;
+        height: 55px;
+        background-size: contain
+    }
+    .header .properties li:nth-child(2):before,
+    .header .properties li:nth-child(3):before {
+        left: 25px;
+        width: 50px;
+        height: 55px;
+        background-size: contain
+    }
+    .header .awards {
+        top: -60px;
+        left: 30px
+    }
+    .header .order-form {
+        width: auto;
+        margin-top: -100px;
+        -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .75);
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .75)
+    }
+    .header .order-form .price .new_price {
+        margin-left: 10px
+    }
+    .header .order-form .price .old_price {
+        padding-left: 10px
+    }
+    .s1 h1,
+    .s2 figure,
+    .s2 h1 {
+        padding-left: 15px
+    }
+    .s1 h1 {
+        font-size: 30px;
+        height: 30px;
+        margin-top: 35px
+    }
+    .s1 h1 .green {
+        font-size: 36px;
+        line-height: 22px
+    }
+    .s1 .video {
+        max-width: 300px;
+        margin: 100px auto
+    }
+    .s2 {
+        background-image: url(../img/bg2_mob.png);
+        background-position: top 753px left 50%;
+        margin-top: -70px
+    }
+    .s2 h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-top: 0
+    }
+    .s2 h1 .green {
+        font-size: 28px;
+        line-height: 22px
+    }
+    .s2 figure {
+        margin-bottom: 15px;
+        width: 295px
+    }
+    .s2 figure figcaption {
+        height: 135px;
+        -webkit-box-shadow: 0 7px 30px 0 #adadad;
+        box-shadow: 0 7px 30px 0 #adadad;
+        width: 280px
+    }
+    .s2 .problems {
+        margin-left: 0
+    }
+    .s2 .problem1 figcaption,
+    .s2 .problem3 figcaption {
+        -webkit-box-shadow: 0 7px 30px 0 #adadad;
+        box-shadow: 0 7px 30px 0 #adadad
+    }
+    .s2 .problem4 figcaption {
+        -webkit-box-shadow: 0 7px 30px 0 #474747;
+        box-shadow: 0 7px 30px 0 #474747
+    }
+    .s2 .why_problems h1 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        margin-bottom: 45px;
+        padding-left: 0
+    }
+    .s2 .why_problems h1 .green {
+        font-size: 36px;
+        line-height: 20px;
+        margin-bottom: 0
+    }
+    .s3 h1 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+        padding-left: 15px
+    }
+    .s3 h1 .green {
+        font-size: 36px;
+        line-height: 20px;
+        margin-bottom: 0
+    }
+    .s3 p {
+        line-height: 26px;
+        padding-left: 0
+    }
+    .s3 .problem_solve {
+        width: 215px;
+        margin: 0 0 35px
+    }
+    .s3 .cert_img {
+        margin-bottom: 20px
+    }
+    .s4 h2,
+    .s4 p {
+        margin-bottom: 30px
+    }
+    .s3 .btn {
+        padding: 15px 75px;
+        margin-top: 30px
+    }
+    .s4 {
+        background-image: url(../img/bg_s4_mob.jpg);
+        background-position: top left 44%;
+        padding-bottom: 310px
+    }
+    .s4 h2 {
+        font-size: 26px
+    }
+    .s4 p {
+        font-size: 18px
+    }
+    .s4 .doctor {
+        width: 215px
+    }
+    .s5 h1 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 55px;
+        padding-left: 15px
+    }
+    .s5 h1 .green {
+        font-size: 29px;
+        line-height: 22px;
+        margin-bottom: 0
+    }
+    .s5 .cards {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    .s5 .card {
+        width: 300px;
+        padding: 0 20px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 0 0 17px -2px rgba(71, 71, 71, .58);
+        box-shadow: 0 0 17px -2px rgba(71, 71, 71, .58)
+    }
+    .s5 .card li {
+        padding-bottom: 15px
+    }
+    .s6 {
+        background-image: url(../img/bg6_mob.png)
+    }
+    .s6 h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 15px;
+        padding-left: 15px
+    }
+    .s6 h1 .green {
+        font-size: 30px;
+        line-height: 22px;
+        margin-bottom: 0
+    }
+    .s6 figure p {
+        font-size: 19px;
+        padding-left: 0;
+        padding-right: 0
+    }
+    .s6 .step1:after,
+    .s6 .step2:after {
+        display: none
+    }
+    .s6 .step3 {
+        margin-bottom: 40px
+    }
+    .s6 .feedback_head {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 35px
+    }
+    .s6 .slider p {
+        font-size: 18px
+    }
+    .requisits {
+        margin-top: -30px
+    }
+    .wow {
+        -webkit-animation-name: none!important;
+        animation-name: none!important
+    }
+}
+
+@media screen and (max-width:710px) {
+    .header {
+        padding-bottom: 40px
+    }
+}
+
+@media screen and (max-width:320px) {
+    .s4 {
+        background-position: top left 53%
+    }
+}
+
+
+}
+
+}
